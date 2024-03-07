@@ -1,0 +1,33 @@
+/* Header.css */
+
+.container-fluid {
+  background-color: #e0e0ff;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+}
+
+.header {
+  margin: 0;
+  position: relative;
+}
+
+.header h2 {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+  padding: 0 10px;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 24px;
+  margin-right: 10px; /* Adjust the margin to add space between icons and title */
+}
+

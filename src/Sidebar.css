@@ -1,0 +1,43 @@
+
+/* Style the sidebar container */
+.sidebar-container {
+  width: 200px;
+  background-color: #e0e0ff;
+  color: #020101;
+  padding: 20px;
+  position: fixed;
+  top: 150px; /* Adjust this value to add space above the container */
+  left: 0;
+  height: 100%;
+  overflow-y: auto;
+}
+
+
+/* Style for sections */
+.section {
+  margin-bottom: 10px;
+}
+
+.section h2 {
+  font-size: 30px;
+  margin: 0;
+  padding: 20px 0;
+}
+
+/* Style for subsections */
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section ul li {
+  padding: 2px 0;
+}
+
+.section ul li a {
+  text-decoration: none;
+  color: #010000;
+  display: block;
+  padding: 2px 0;
+}
+
